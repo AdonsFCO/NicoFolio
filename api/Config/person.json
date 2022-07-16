@@ -1,0 +1,16 @@
+{
+    "name": "Nicole",
+    "lastName": "Reyes Sanchez",
+    "nickName": "NicoNikiforov",
+    "email": "Niconiki12@gmail.com",
+    "address": "N/A", 
+    "profilePicAddress": "Mario.com",
+    "phoneNumber": "N/A",
+    "social": {
+        "linkedin": "www.linkedin.com.",
+        "facebook": "facebook.com",
+        "twitter": "twitter.com",
+        "discord": "discord.com"
+    }
+
+}

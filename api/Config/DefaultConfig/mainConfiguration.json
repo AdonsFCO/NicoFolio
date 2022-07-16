@@ -1,0 +1,15 @@
+{
+    "firstTime?": true,
+    "visible": {
+        "nickName": false,
+        "phoneNumber": false,
+        "address": false,
+        "profilePicAddress": false,
+        "social": {
+            "linkedin": false,
+            "facebook": false,
+            "twitter": false,
+            "discord": false
+        }
+    }
+}
