@@ -1,4 +1,8 @@
 import React from "react";
+import { ParallaxProvider } from 'react-scroll-parallax';
+// import Banner  from "./Components/TitleBanner";
+import Notebook from "./Components/Notebook";
+//Remember to study react-pageflip
 // import Api from "./Components/Api";
 
 // import { user } from "./contentManager";
@@ -22,11 +26,16 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-      <>
-        <p>Name: {this.state.data.name}</p>
+      /* <p>Name: {this.state.data.name}</p>
         <p>LastName: {this.state.data.lastName}</p>
-      </>
+        <Banner /> */
+    return (
+      <ParallaxProvider>
+      
+        <Notebook />
+
+        
+      </ParallaxProvider>
     );
   }
 }
